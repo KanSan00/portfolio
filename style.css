@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    width: 50%;
+    /* 幅を短くするための変更 (必要に応じて数値を調整してください) */
+    margin-left: auto;
+    /* 中央に配置するために追加 */
+    margin-right: auto;
+    /* 中央に配置するために追加 */
+    display: flex;
+    justify-content: center;
+    border-bottom: 4px double lightgreen;
+    /* 線の太さ細くしたい場合は 4px を 3px などにします */
+    padding-bottom: 5px;
+    margin-top: 50px;
+}
+
+.greeting-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.table {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 10px;
+}
+
+#top-menu {
+    width: 100%;
+    background-color: rgb(209, 255, 209);
+    display: flex;
+    justify-content: center;
+}
+
+#top-menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border-left: 3px solid #ccc;
+}
+
+#top-menu ul li {
+    border-right: 3px solid #ccc;
+}
+
+#top-menu ul li a {
+    display: block;
+    padding: 6px 20px;
+}
+
+#top-menu a:hover {
+    /*マウスカーソルを乗せたとき*/
+    color: green;
+    transform: translateY(-5px);
+}
+
+
+#skill ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    /*外側*/
+    padding: 0;
+    /*内側*/
+    gap: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+#skill li {
+    border: 4px solid #333;
+    border-radius: 8px;
+    padding: 50px;
+    margin-bottom: 10px;
+}
+
+#hobby {
+    font-size: 18px;
+}
+
+#hobby ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* スキルセクションと同じ間隔 */
+    gap: 80px;
+    padding-top: 10px;
+}
+
+#hobby ul ul {
+    display: block;
+    /* 中のリスト（チーム名など）は縦に並べる */
+    gap: 0;
+}
+
+
+#link ul {
+    list-style: none;
+    text-align: center;
+    margin-right: 45px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
