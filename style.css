@@ -8,7 +8,19 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-    padding-top: 40px;
+}
+
+.container {
+    /* 黒の50%半透明 */
+    background: rgba(255, 255, 255, 0.5);
+    /* 背景をぼかす（重要！） */
+    backdrop-filter: blur(10px);
+    /* Safari対策 */
+    -webkit-backdrop-filter: blur(10px);
+    /* 角を丸くして柔らかい印象に */
+    border-radius: 20px;
+    /* 薄い枠線で立体感を出す */
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 h1 {
