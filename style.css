@@ -120,6 +120,11 @@ h2 {
     margin-right: 45px;
 }
 
+#back_to_top a{
+    display: flex;
+    justify-content: center;
+}
+
 footer {
     display: flex;
     justify-content: center;
